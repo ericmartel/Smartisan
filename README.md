@@ -10,7 +10,16 @@ The preferred method is to use the [Sublime Package Manager](http://wbond.net/su
 
 ## Documentation
 
-TODO
+Still work in progress:
+
+`smartisan_select` or `Smartisan: Select Command` from the command palette will open a palette dropdown with a list of "namespaces / modules" in artisan, and once you select it, it changes to all the available commands.  Then, an input is prompted if you want to supply additional parameters
+
+`smartisan_run` (which should be used more as a key binding command) checks 2 arguments: `command` which is the command to execute, and `with_input` set to anything different than `"false"` will prompt with an input field before executing the command.  This way you could do something like:
+
+    {
+        "keys": ["super+shift+k"], "command": "smartisan_run", "args": {"command": "key:generate", "with_input": "False"},
+    }
+
 
 # License
 
