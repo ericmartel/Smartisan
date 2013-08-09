@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "-",
+        "id": "separator"
+    },
+    {
+        "caption": "Smartisan",
+        "mnemonic": "s",
+        "id": "smartisan",
+        "children":
+        [
+            {
+                "command": "smartisan_select",
+                "caption": "Select Command"
+            },
+            {
+                "caption": "-",
+                "id": "separator"
+            },
+            {
+                "command": "smartisan_index_folders",
+                "caption": "Index Opened Folders"
+            },
+            {
+                "command": "smartisan_list_indexed_artisan",
+                "caption": "List Indexed Artisan"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"caption": "Smartisan: Index Opened Folders",
+		"command": "smartisan_index_folders"
+	},
+	{
+		"caption": "Smartisan: List Indexed Artisan Files",
+		"command": "smartisan_list_indexed_artisan"
+	},
+	{
+		"caption": "Smartisan: Select Command",
+		"command": "smartisan_select"
+	}
+]

@@ -1,0 +1,9 @@
+Smartisan Plugin by Eric Martel (emartel@gmail.com / www.ericmartel.com)
+
+This plugin aims at making it easier for users of the Laravel 4 framework to interface with their artisan CLI.
+
+Please direct any feedback to emartel@gmail.com or through github at https://github.com/ericmartel/Sublime-Text-3-Smartisan-Plugin.
+
+Thank you for your support.
+
+Eric Martel
