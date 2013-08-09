@@ -47,7 +47,7 @@ try:
 except AttributeError:
     porting_layer = Python2Layer();
 
-# Taken from http://stackoverflow.com/questions/377017/test-if-executable-exists-in-python
+# Taken from http://stackoverflow.coexm/questions/377017/test-if-executable-exists-in-python
 def which(program):
     import os
     def is_exe(fpath):
@@ -67,7 +67,10 @@ def which(program):
     return None
 
 def is_environment_ok():
-    if which("php") == None:
+    php_executable = "php.exe";
+    if(sublime.platform() != "windows"):
+        php_executable = "php"
+    if which(php_executable) == None:
         smartisan.display_error("php is not found on your environment.  It is required to execute artisan commands.  Consider adding it to the PATH environment variable");
         return False;
     return True;
@@ -221,7 +224,7 @@ class SmartisanData():
         # parse the results
         lines = str.split(result, '\n');
 
-        artisan_parts.version = lines[0];
+        artisan_parts.version = lines[0].strip();
 
         linenum = 1;
                 
