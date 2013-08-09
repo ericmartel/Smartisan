@@ -4,7 +4,7 @@ This plugin aims at making it easier for users of the `Laravel 4` framework to i
 
 ## Install
 
-The preferred method is to use the [Sublime Package Manager](http://wbond.net/sublime_packages/package_control). Alternatively, the files can be obtained on github:
+The preferred method is to use the [Sublime Package Manager](http://wbond.net/sublime_packages/package_control) (soon). Alternatively, the files can be obtained on github:
 
     $ https://github.com/ericmartel/Smartisan
 
